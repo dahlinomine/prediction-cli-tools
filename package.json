@@ -1,0 +1,14 @@
+{
+  "name": "prediction-cli-tools",
+  "version": "0.1.0",
+  "description": "Command-line interface for managing all your prediction market trades",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "keywords": []
+}
